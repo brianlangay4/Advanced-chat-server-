@@ -1,12 +1,14 @@
 # Advanced-chat-server-
 Chat server with high level Archtecture capable to handle millions of users with caching and rubust database data transfer managment
 
-### This Chat server leverages Tornado for its web server capabilities, providing non-blocking I/O for efficient handling of HTTP requests and WebSocket connections. Redis is used for managing the state of active WebSocket clients, ensuring efficient tracking and scalability. HDFS (Hadoop Distributed File System) is employed for scalable and reliable file storage, while HBase serves as the storage backend for persistent chat messages. Kafka is integrated for message queuing and broadcasting, enabling real-time communication across connected clients. Together, these frameworks create a robust and scalable server environment suitable for applications requiring real-time communication, file management, and persistent data storage.
+### Discription
+This Chat server leverages Tornado for its web server capabilities, providing non-blocking I/O for efficient handling of HTTP requests and WebSocket connections. Redis is used for managing the state of active WebSocket clients, ensuring efficient tracking and scalability. HDFS (Hadoop Distributed File System) is employed for scalable and reliable file storage, while HBase serves as the storage backend for persistent chat messages. Kafka is integrated for message queuing and broadcasting, enabling real-time communication across connected clients. Together, these frameworks create a robust and scalable server environment suitable for applications requiring real-time communication, file management, and persistent data storage.
 
 # Server to client Communication Preview  
 
 
-# SA This server is ideal for applications requiring real-time communication, scalable file management, and robust data storage and retrieval capabilities.
+# SA 
+This server is ideal for applications requiring real-time communication, scalable file management, and robust data storage and retrieval capabilities.
 ![Screenshot 2024-06-02 205404](https://github.com/brianlangay4/Advanced-chat-server-/assets/67788456/6c330d39-1334-4d44-8002-15644c15bbd5)
 
 ### Server Description
